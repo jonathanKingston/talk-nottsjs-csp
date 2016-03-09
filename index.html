@@ -1,157 +1,224 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-	<title>Shower Presentation Engine with Mozilla Theme</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=792, user-scalable=no">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Shower Presentation Engine with Mozilla Theme</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=792, user-scalable=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
         <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
-	<link rel="stylesheet" href="shower/themes/mozilla/styles/style.css">
+  <link rel="stylesheet" href="shower/themes/mozilla/styles/style.css">
 </head>
 <body class="list">
-	<header class="caption">
-        <h1>Shower Presentation Engine with Mozilla Theme</h1>
-		<p>Yours Truly, Famous Inc.</p>
-	</header>
-	<section class="slide cover" id="Cover"><div>
-        <h2>Shower (with Mozilla Theme) Presentation Engine</h2>
-		<p>Brought to you by <a href="http://pepelsbey.net">Vadim Makeev</a> and <a href="http://mte90.net">Daniele Scasciafratte</a></p>
-		<img src="pictures/cover.jpg" alt="">
-		<!--
-			To apply styles to the certain slides
-			set slide ID to get needed elements
-			-->
-	</div></section>
-	<section class="slide"><div>
-		<h2>Shower Key Features</h2>
-		<ol>
-            <li class="color-lightblue">Built on HTML, CSS and vanilla JavaScript</li>
-            <li class="color-nightlyblue">All modern browsers are supported</li>
-            <li class="color-blue">Slide themes are separated from engine</li>
-            <li class="color-yellow">Fully keyboard accessible</li>
-            <li class="color-lightorange">Printable to PDF</li>
-            <li class="color-orange">Choose text color from Firefox colors</li>
-		</ol>
-		<p class="note">Shower ['ʃəuə] noun. A person or thing that shows.</p>
-	</div></section>
-	<section class="slide red"><div>
-		<h2>Plain Text on Your Slides</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud</em> exercitation ullamco laboris <strong>nisi ut aliquip</strong> ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <code>&lt;culpa&gt;</code> qui officia deserunt mollit anim id est laborum.</p>
-	</div></section>
-	<section class="slide blue"><div>
-		<h2>All Kind of Lists</h2>
-		<ol>
-			<li>Simple lists are marked with bullets</li>
-			<li>Ordered lists begin with a number</li>
-			<li>You can even nest lists one inside another
-				<ul>
-					<li>Or mix their types</li>
-					<li>But do not go too far</li>
-					<li>Otherwise audience will be bored</li>
-				</ul>
-			</li>
-			<li>Look, seven rows exactly!</li>
-		</ol>
-	</div></section>
-	<section class="slide darkgray"><div>
-		<h2>Serious Citations</h2>
-		<figure>
-			<blockquote>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-			</blockquote>
-			<figcaption>Marcus Tullius Cicero</figcaption>
-		</figure>
-	</div></section>
-	<section class="slide"><div>
-		<h2>Code Samples</h2>
-		<pre>
-			<code>&lt;!DOCTYPE html&gt;</code>
-			<code>&lt;html lang="en"&gt;</code>
-			<code><mark>&lt;head&gt;</mark> <mark class="comment">&lt;!--Comment--&gt;</mark></code>
-			<code>    &lt;title&gt;Shower&lt;/title&gt;</code>
-			<code>    &lt;meta charset="<mark class="important">UTF-8</mark>"&gt;</code>
-			<code>    &lt;link rel="stylesheet" href="screen.css"&gt;</code>
-			<code><mark>&lt;/head&gt;</mark></code>
-		</pre>
-	</div></section>
-	<section class="slide"><div>
-		<h2>Even Tables</h2>
-		<table>
-		<tr>
-			<th scope="col">Locavore</th>
-			<th>Umami</th>
-			<th>Helvetica</th>
-			<th>Vegan</th>
-		</tr>
-		<tr>
-			<th scope="row">Fingerstache</th>
-			<td>Kale</td>
-			<td>Chips</td>
-			<td>Keytar</td>
-		</tr>
-		<tr>
-			<th scope="row">Sriracha</th>
-			<td>Gluten-free</td>
-			<td>Ennui</td>
-			<td>Keffiyeh</td>
-		</tr>
-		<tr>
-			<th scope="row">Thundercats</th>
-			<td>Jean</td>
-			<td>Shorts</td>
-			<td>Biodiesel</td>
-		</tr>
-		<tr>
-			<th scope="row">Terry</th>
-			<td>Richardson</td>
-			<td>Swag</td>
-			<td>Blog</td>
-		</tr>
-		</table>
-		<p>It’s good to have information organized.</p>
-	</div></section>
-	<section class="slide cover"><div>
-		<h2 class="left">Pictures</h2>
-		<img src="pictures/picture.jpg" alt="">
-	</div></section>
-	<section class="slide shout gradient-nightly"><div>
-		<h2>You can even shout this way</h2>
-	</div></section>
-	<section class="slide"><div>
-		<h2>Inner Navigation</h2>
-		<ol>
-			<li>Lets you reveal list items one by one</li>
-			<li class="next">To keep some key points</li>
-			<li class="next">In secret from audience</li>
-			<li class="next">But it will work only once</li>
-			<li class="next">Nobody wants to see the same joke twice</li>
-		</ol>
-	</div></section>
-	<section class="slide shout" id="SeeMore"><div>
-		<h2><img src="pictures/logo.svg" alt=""> <a href="https://github.com/shower/shower">See more on GitHub</a></h2>
-		<style>
-			#Picture h2 {
-				color:#FFF;
-				}
-			#SeeMore img {
-				width:0.72em;
-				height:0.72em;
-				}
-		</style>
-	</div></section>
-	<section class="slide"><div>
-        <h2>Question?</h2>
-        <figure class="frame place swing">
-        <img src="pictures/redpanda.jpg" alt="Red panda (Firefox)">
-        </figure>
-    </div></section>
+  <header class="caption">
+    <h1>Securing your apps with CSP</h1>
+    <p>Hello!</p>
+  </header>
+  <section class="slide cover" id="Cover"><div>
+    <h2>Securing your apps with CSP</h2>
+    <p><a href="https://jotter.jonathankingston.co.uk">Jonathan Kingston<br />@KingstonTime</a></p>
+    <p class="strap">I make padlocks look greener and sexier.</p>
+    <img src="pictures/talk-qr.png" class="qr" />
+    <img src="pictures/cover.jpg" alt="">
+    <style>
+      #Cover p {
+        position: absolute;
+        right: 10px;
+      }
+      #Cover .strap {
+        bottom: 10px;
+      }
+      #Cover .qr {
+        position: absolute;
+        top: 39%;
+        z-index: 2;
+        max-width: 200px;
+      }
+    </style>
+  </div></section>
+
+  <section class="slide"><div>
+    <h2>What's up with attacks?</h2>
+    <p>Security is often considered a backend task</p>
+    <p>XSS is most common still</p>
     
-	<!--
-		To hide progress bar from entire presentation
-		just remove “progress” element.
-		-->
-	<div class="progress"><div></div></div>
-	<script src="shower/scripts.js"></script>
-	<!-- Copyright © 2014 Yours Truly, Famous Inc. -->
+  </div></section>
+
+  <section class="slide"><div>
+    <h2>Content Security Policy</h2>
+    <p>Set of capabilities to restrict on</p>
+    <p>Prevents an attacker wanting more permissions</p>
+    
+  </div></section>
+
+  <section class="slide darkgray"><div>
+    <h2>Why CSP matters</h2>
+    <figure>
+      <blockquote>
+        <p>I discount the probability of perfection</p>
+      </blockquote>
+      <figcaption>Alex Russell</figcaption>
+    </figure>
+    <figure>
+      <blockquote>
+        <p>We are all idiots with deadlines</p>
+      </blockquote>
+      <figcaption>Mike West</figcaption>
+    </figure>
+  </div></section>
+
+  <section class="slide"><div>
+    <h2>What does CSP look like</h2>
+    
+    <pre>
+      <code>Content-Encoding: gzip</code>
+      <code>Content-Length: 1954</code>
+      <code>Content-Type: text/html</code>
+      <code><mark>Content-Security-Policy: script-src 'self'</mark></code>
+      <code title="IE support." ><mark>X-Content-Security-Policy: script-src 'self'</mark></code>
+    </pre>
+
+    <a href="https://www.mozilla.org/en-US/firefox/45.0/releasenotes/">Meta tag CSP - now with firey goodness</a>
+    <pre>
+      <code>&lt;meta</code>
+      <code>  http-equiv="Content-Security-Policy"</code>
+      <code>  content="script-src 'self'"</code>
+      <code>&gt;</code>
+    </pre>
+  </div></section>
+
+  <section class="slide"><div>
+    <h2>But hey, implementation can be easier.</h2>
+    
+    <pre>
+      <code>Content-Encoding: gzip</code>
+      <code>Content-Length: 1954</code>
+      <code>Content-Type: text/html</code>
+      <code><mark>Content-Security-Policy-Report-Only:</mark></code>
+      <code><mark>  script-src 'self'</mark></code>
+      <code><mark>  report-uri example.com/csp-error</mark></code>
+    </pre>
+
+
+    <p>Unfortunately security means we can't use Report Only for our firey good times</p>
+    <p>We can however use both headers.</p>
+  </div></section>
+
+  <section class="slide cover" id="demo"><div>
+    <h2>Demo time</h2>
+    <p><a href="bit.ly/1UexbfG">Broken demo</a></p>
+    <p><a href="bit.ly/1p7YDjw">Fixed demo</a></p>
+    <img src="pictures/demo.png" class="qr" />
+    <img src="pictures/picture.jpg" alt="">
+    <style>
+      #demo .qr {
+        z-index: 2;
+        max-width: 200px;
+      }
+    </style>
+  </div></section>
+
+  <section class="slide"><div>
+    <h2>Lots of people find this tough</h2>
+    <p>Big sites that are old</p>
+    <p>New sites that use insecure libs</p>
+  </div></section>
+
+  <section class="slide cover" id="csp-usage"><div>
+    <h2>Only a fraction of the top million sites</h2>
+    <img src="pictures/csp-usage.png" alt="">
+    <style>
+      .slide#csp-usage h2 {
+        color: black;
+      }
+    </style>
+  </div></section>
+
+  <section class="slide red"><div>
+    <h2>Why is it so hard?</h2>
+    <p>Isolating big sites</p>
+    <p>The web is old and behaves badly</p>
+  </div></section>
+
+  <section class="slide blue"><div>
+    <h2>Most restrictive first</h2>
+    <p>Lock all the doors, turn the lights off... then start your app.</p>
+    <pre>
+      <code>Content-Security-Policy:</code>
+      <code>default-src 'none';</code>
+      <code>frame-ancestors 'none';</code>
+      <code>form-action 'none';</code>
+      <code>block-all-mixed-content;</code>
+      <code>sandbox;</code>
+      <code>reflected-xss block;</code>
+      <code>referrer no-referrer;</code>
+    </pre>
+  </div></section>
+
+  <section class="slide"><div>
+    <h2>Libraries</h2>
+    <ol>
+      <li class="color-blue">Libraries have a far reaching impact on the web</li>
+      <li class="color-blue">Educate the wider web</li>
+      <li class="color-blue">Despite testing they break others apps</li>
+      <li class="color-blue">Don't fail your users (Marketing libs etc)</li>
+    </ol>
+  </div></section>
+
+  <section class="slide"><div>
+    <h2>Libs: Make them static</h2>
+    <code>&lt;script src="http://maketing-snot.com/script.js" &gt;&lt/script&gt;</code>
+    <ol>
+      <li>Provide rollout and update</li>
+      <li>Easier to test</li>
+    </ol>
+  </div></section>
+
+  <section class="slide blue"><div>
+    <h2>Libs: Provide example policies</h2>
+    <p>Explain what it is tested with</p>
+    <p>Inform developers if new requirements are needed</p>
+  </div></section>
+
+  <section class="slide" id="reporting"><div>
+    <h2>Reporting and testing</h2>
+    <ol>
+      <li>Use automated tests</li>
+      <li>Tighten policies with reporting <a href="https://report-uri.io">report-uri.io</a></li>
+    </ol>
+    <img src="pictures/reporturi-usage.png" />
+    <style>
+      #reporting img {
+        max-width: 800px;
+      }
+    </style>
+  </div></section>
+
+  <section class="slide" id="thanks"><div>
+    <h2>Questions?</h2>
+    <p><a href="https://twitter.com/KingstonTime">@KingstonTime</a></p>
+    <ul>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/Security/CSP">CSP MDN</a>
+      <li><a href="http://www.cspplayground.com/">CSP playground</a>
+      <li><a href="http://content-security-policy.com/">CSP cheat sheet</a></li>
+      <li><a href="https://w3c.github.io/webappsec-csp/2/">CSP spec</a></li>
+      <li><a href="https://github.com/yahoo/csptester">CSP yahoo test</a></li>
+    </ul>
+    <figure class="frame place swing">
+    <img src="pictures/redpanda.jpg" alt="Red panda (Firefox)">
+    </figure>
+    <style>
+      #thanks figure {
+        right: 20%;
+      }
+    </style>
+  </div></section>
+    
+  <!--
+    To hide progress bar from entire presentation
+    just remove “progress” element.
+    -->
+  <div class="progress"><div></div></div>
+  <script src="shower/scripts.js"></script>
+  <!-- Copyright © 2014 Yours Truly, Famous Inc. -->
 </body>
 </html>

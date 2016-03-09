@@ -225,10 +225,11 @@ small {
 }
 .slide blockquote:before {
     position: absolute;
-    margin: -16px 0 0 -80px;
+    margin: -16px 0 0 -87px;
     color: #CCC;
     font:200px/1 'Fira Sans', sans-serif;
-    content: '\201C'}
+    content: '\201C'
+}
 .slide blockquote+figcaption {
     margin: -50px 0 50px;
     font-style: italic;
@@ -792,3 +793,4 @@ img.fullsize.stretch {
    cursor: default;
    opacity: 0.5;
 }    
+

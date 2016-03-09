@@ -1,34 +1,13 @@
-#Mozilla Presentation Boilerpalte
-Based on [Shower](https://github.com/shower/shower) and [Codepo8 Presentation template](https://github.com/codepo8/mozilla-presentation-templates)
+# [CSP NottsJS talk](http://jonathankingston.github.io/talk-nottsjs-csp/)
 
-##How to use
+## Example site
 
-```
-git clone git@github.com:Mte90/Mozilla-Presentation-Boilerplate.git
-```
+- [Example](https://rawgit.com/jonathanKingston/my-first-comment-system/419221e445b57c1f4c8d236851aadf05edc30ad1/lib/index.html)
+- [Repo](https://github.com/jonathanKingston/my-first-comment-system)
 
-Follow the [wiki for the Ribbon style](https://github.com/shower/shower/wiki/Ribbon) of Shower that this theme is based on it.  
- 
-##Difference from Shower
 
-* Check the last slide for a frame swing animation (based on codepo8 template)
-* Fira Font
-* 3 different background for the slide with classes `.red`, `.blue`, `.darkgray`, `.gradient-nightly` (try the demo)
-* Removed inline css
-* Added `.left` and `.right` class
-* Text color based on https://www.mozilla.org/en-US/styleguide/identity/firefox/color/ (try the demo)
-* `.fullsize` and `.fullsize.stretch` for image
-* `.opacity` background area
-* `.right`, `.left`, `.bottom` and `.center` alignment class
-* Example image in Mozilla style
-* Remove slide on the fly before launch the slide!
+## Thanks to
 
-##Difference from CodePo8 Presentation Template
-
-* Progressbar added
-* Number of slide added
-* Shower updated
-
-##Alternative
-
-[Mozilla Theme for Reveal.js](https://github.com/Mte90/mozilla-theme-revealjs/)
+- [NottsJS](https://nottsjs.org)
+- [Mozilla](https://mozilla.com)
+- [Scott Helme](https://scotthelme.co.uk/)
